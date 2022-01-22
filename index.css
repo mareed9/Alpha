@@ -1,0 +1,233 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400px;
+}
+
+/********** DIVS **********/
+
+.full-s {
+    min-width: 100% !important;
+    min-height: 80vh !important;
+    position: relative;
+}
+
+.full-f {
+    min-width: 100% !important;
+    min-height: 100vh !important;
+    position: relative;
+}
+
+.full-m {
+    min-width: 100% !important;
+    min-height: 60vh !important;
+    position: relative;
+}
+
+/********** FONTS **********/
+
+/**** 60px ****/
+.hbig {
+    font-size: 6.25rem;
+    line-height:3.75rem;
+    font-family: "Montserrat", serif !important;
+    color:#73c3f4
+}
+
+/**** 45px ****/
+.h1 {
+    font-size: 2.813rem;
+    line-height: 4.188rem;
+    font-family: "Libre Baskerville", serif !important;
+}
+
+/**** 32 ****/
+.h2 {
+    font-size: 2rem;
+    line-height: 3.188rem;
+    font-family: "Libre Baskerville", serif !important;
+}
+/**** 24 ****/
+.h3 {
+    font-size: 1.5rem;
+    line-height: 2.375rem;
+    font-family: "Libre Baskerville", serif !important;
+}
+
+/**** 12 ****/
+
+.pbig {
+    font-size: 1.375rem;
+    line-height: 2.2rem;
+}
+
+/**** 16 ****/
+
+.p1 {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    text-decoration: none;
+}
+
+/**** 14 ****/
+
+.p2 {
+    font-size: 0.875rem;
+    line-height: 1.063rem;
+}
+
+/**** FontWeight normal****/
+.fw-400 {
+    font-weight: 400 !important;
+}
+
+/**** FontWeight bold****/
+.fw-700 {
+    font-weight: 700 !important;}
+
+.fw-500 {
+    font-weight: 500 !important;
+}
+
+.fw-600 {
+    font-weight: 600 !important;}
+
+/********** COLORS **********/
+.c-black {
+    color: #333333;
+}
+.c-white {
+    color: #ffffff;
+}
+.bg-mainwhite {
+    background-color: #e5e5e5;
+}
+.bg-gray {
+    background-color: #f9f9f9;
+}
+.bg-yellow {
+    background-color: #ffd900;
+}
+.bg-pink {
+    background-color: #dd71c6;
+}
+.bg-blue {
+    background-color: #73c3f4;
+}
+
+.bred {
+    border: solid red;
+}
+
+.bred1 {
+    border: solid green;
+}
+
+.bred2 {
+    border: solid #7871dd;
+}
+
+.nav-custom{
+position: absolute;
+top: 1%;
+z-index: 2;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+}
+
+.home-items{
+    display: flex;
+    flex: column!important;
+    justify-content: end!important;
+    align-items: center!important;
+}
+
+.home-item {
+    display: flex;
+    flex: column;
+    justify-content: space-between;
+}
+
+.home-yellow {
+    border-top-left-radius: 50px;
+    z-index: 1;
+}
+
+.home-women {
+    z-index: 1;
+    position: absolute;
+    right: 0!important;
+    bottom: 0!important;
+}
+
+.left-woman {
+    z-index: 1;
+    position: absolute;
+    right: 25%!important;
+    
+}
+
+.home-circle{
+    z-index: -2;
+    position: absolute;
+    bottom: -1%!important;
+    height: 68%;
+    right: -100%;
+}
+
+.pink-circle{
+    position: absolute;
+    bottom: 45%!important;
+    right: 2%;
+}
+
+.pink-circle-right{
+    position: absolute;
+    bottom: -8%!important;
+    right: 0%;
+    width: 100%;
+}
+
+.testclas{
+    height: 100%!important;
+}
+
+.bt{
+    text-decoration: none;
+    border:0;
+ }
+
+.second-page-right{
+    margin-top: 7%;
+}
+
+.white-txt{
+    color: #ffffff;
+}
+
+.yelow-logo{
+    z-index: 1;
+    position: absolute;
+    left: 1.2%;
+}
+
+.weight-loss-suppl{
+    position: absolute;
+    top:15%
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.a{
+    text-decoration: none;
+    color: #333333;
+}
+
+
+
